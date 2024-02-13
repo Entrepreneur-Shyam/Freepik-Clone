@@ -1,0 +1,124 @@
+.input-container {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #dadce0;
+    padding: 0.5rem 1rem;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: white;
+}
+
+.input-freepik-logo {
+    width: 9rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+
+
+.input-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 11rem);
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    border: 1px solid rgb(196, 196, 196);
+
+
+}
+
+.input-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    cursor: pointer;
+}
+
+.input-left svg:first-child {
+    width: 1rem;
+    color: rgb(163, 163, 163);
+    margin-left: 1rem;
+}
+
+
+
+.input-field svg:last-child {
+    fill: rgb(159, 159, 159);
+    width: 0.6rem;
+    margin-left: 4rem;
+}
+
+.input-left h5 {
+    font-weight: 400;
+    margin-left: 1rem;
+    color: rgb(163, 163, 163);
+}
+
+
+.input-field:hover {
+
+    .input-left h5 {
+        color: rgb(77, 77, 77);
+    }
+
+    .input-left svg:first-child {
+        color: rgb(77, 77, 77);
+
+    }
+
+
+}
+
+
+.input-field input {
+    padding: 0.5rem;
+    height: 1.5rem;
+    width: 80%;
+    border: none;
+    border-left: 1px solid rgb(211, 211, 211);
+    font-size: 0.9rem;
+    margin: 0.6rem 1rem;
+    background-color: rgb(238, 238, 238);
+}
+
+.input-field input::placeholder {
+    color: #aeaeae;
+}
+
+.input-field input:focus {
+    outline: none;
+
+}
+
+
+
+
+
+
+/* search button */
+.search-btn {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 6.5rem;
+    cursor: pointer;
+    background-color: rgb(76, 118, 233);
+    color: white;
+    font-weight: 800;
+    padding: 0.2rem 0.7rem;
+    border: none;
+    border-radius: 3px;
+    margin-right: 0.4rem;
+}
+
+.search-btn svg {
+    fill: white;
+
+}

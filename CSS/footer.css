@@ -1,0 +1,166 @@
+
+button{
+    cursor: pointer;
+
+}
+ul h3{
+    font-size: 0.8rem;
+color: rgb(215, 215, 215);
+text-transform: uppercase;
+}
+
+ul li{
+    list-style: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: rgb(172, 172, 172);
+    cursor: pointer;
+}
+ul li:hover{
+    color: white;
+}
+ul{
+    line-height: 1.25rem;
+
+}
+footer{
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.content-container{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(55, 55, 55);
+    padding:2rem 0;
+}
+
+.legal-support ul:nth-child(2){
+    margin-top: 1.2rem;
+}
+
+.social-media h3{
+    font-size: 1rem;
+color: rgb(215, 215, 215);
+margin-bottom: 0.7rem;
+}
+
+.social-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 0.4rem;
+    
+}
+.social-images img{
+    width: 2rem;
+    cursor: pointer;
+
+}
+
+.sign-up{
+    margin-top: 2rem;
+}
+
+.sign-up h5{
+    color: rgb(154, 154, 154);
+
+}
+
+.sign-up button{
+    background-color: rgb(7, 150, 239);
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius:5px;
+    margin-top:1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.sign-up button:hover{
+    background-color: rgb(0, 114, 186);
+
+}
+
+
+
+.copyright{
+    width: 70%;
+    margin: 1.2rem 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .6rem ;
+}
+
+.copyright .left{
+    display: flex;
+    align-items: baseline;
+    font-size: 1.03rem;
+    color: rgb(171, 171, 171);
+}
+
+.left svg{
+    margin-right: 0.4rem;
+    cursor: pointer;
+}
+
+.copyright button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.8rem 1.4rem;
+    border: 3px solid white;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.copyright button:hover{
+    background-color: rgb(78, 78, 78);
+}
+.copyright button svg{
+    fill: white;
+    width: 0.6rem;
+    margin-left: 0.8rem;
+}
+
+
+
+
+
+
+.ending{
+    width: 100%;
+    height: 3rem;
+    padding: 0 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(59, 59, 59);
+    color: rgb(167, 167, 167);
+}
+
+.ending div{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.ending div h5{
+    cursor: pointer;
+
+}
+.ending div h5:hover{
+    color: rgb(209, 209, 209);
+}

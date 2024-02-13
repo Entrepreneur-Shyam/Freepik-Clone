@@ -1,0 +1,145 @@
+.suggestion-heading {
+  display: flex;
+  align-items: center;
+  /* width: 100%; */
+  justify-content: space-around;
+  padding: 0.5rem 4rem;
+  position: sticky;
+  z-index: 12;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+#left-btn {
+
+  left: -2%;
+  position: absolute;
+  background: linear-gradient(to right, #ffffff, #ffffffa7);
+  display: none;
+}
+
+#left-btn svg:hover {
+  fill: #8d8d8d;
+}
+
+#left-btn svg {
+  margin-right: 2rem;
+
+}
+
+#right-btn {
+  right: -2%;
+  position: absolute;
+  background: linear-gradient(to right, #ffffffb7, #ffffff);
+}
+
+#right-btn svg:hover {
+  fill: #8d8d8d;
+}
+
+#right-btn svg {
+  margin-left: 2rem;
+
+}
+
+.move-svg {
+  fill: rgb(0, 0, 0);
+  width: 1.6rem;
+}
+
+
+.suggestion-heading button {
+  display: flex;
+  border: none;
+  align-items: center;
+  padding: 0.1rem 1.7rem;
+  height: 2.9rem;
+  cursor: pointer;
+  transition: all 0.3s;
+
+}
+
+
+.filter {
+  cursor: pointer;
+  border-radius: 10px;
+  margin-right: 2.5rem;
+  font-size: 0.9rem;
+  color: #838383;
+  transition: all 0.3s;
+  display: none;
+ 
+}
+
+.filter:hover {
+  background-color: #e4e4e4;
+}
+
+.filter svg {
+  fill: rgb(94, 94, 94);
+}
+
+.filter h3 {
+  margin-left: 1rem;
+}
+
+.suggestion-container-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.suggestion-container {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  transition: all 0.3s;
+
+}
+
+.suggestion-container button:hover {
+  background-color: #f1f1f1;
+}
+
+
+.bold-type {
+  display: flex;
+}
+
+.bold-type button h3 {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+#check1,
+#check2,
+#check3 {
+  fill: black;
+}
+
+.suggestion-container button {
+  margin-right: 1rem;
+  font-size: 0.7rem;
+  border: 1px solid rgb(220, 220, 220);
+  background-color: white;
+  border-radius: 10px;
+  padding: 0.5rem 0.6rem;
+
+
+
+
+}
+
+.suggestion-container button svg {
+  width: 1.2rem;
+  fill: #858585;
+  margin-right: 0.4rem;
+}
+
+.suggestion-container h3 {
+  color: gray;
+  white-space: nowrap;
+
+}
