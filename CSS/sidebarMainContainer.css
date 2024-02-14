@@ -1,6 +1,6 @@
 .sidebar-main-container {
     width: 100%;
-  
+
     /* background-color: aqua; */
     border-bottom: 1px solid rgb(214, 214, 214);
     margin-bottom: 2rem;
@@ -8,13 +8,13 @@
     /* justify-content: end; */
     /* background-color: #02c74d; */
 
- 
+
 
 }
 
 .main-container {
-    width: 100%;    
-                            
+    width: 100%;
+
 }
 
 
@@ -22,12 +22,12 @@
 .sidebar {
     display: flex;
     flex-direction: column;
-    width: 300px;  
-   display: none;                                 
+    width: 300px;
+    display: none;
 
     border-right: 1px solid rgb(214, 214, 214);
-    
- position: relative;
+
+    position: relative;
 
 }
 
@@ -41,7 +41,7 @@
     background-color: white;
     border-bottom: 1px solid rgb(211, 211, 211);
     z-index: 1;
-position: sticky;
+    position: sticky;
 
 
 }
@@ -100,7 +100,7 @@ position: sticky;
 
 }
 
-.filter-option .first{
+.filter-option .first {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -127,17 +127,17 @@ position: sticky;
     margin-left: 0.5rem;
 }
 
-.asset-type{
+.asset-type {
     /* background-color: #02c74d; */
-   width: 100%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 1rem;
+    gap: 10px;
+    margin-top: 1rem;
 
 }
 
-.asset-type button{
+.asset-type button {
     width: auto;
     padding: 0 0.9rem;
     height: 2.1rem;
@@ -146,137 +146,153 @@ position: sticky;
     border-radius: 9px;
     color: rgb(94, 94, 94);
     transition: all 0.3s;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.asset-type button:hover{
+
+.asset-type button:hover {
     background-color: rgb(245, 251, 255);
 
 }
 
-#premium-btn>svg{
+#premium-btn>svg {
     fill: rgb(145, 145, 145);
     height: 1.3rem;
     margin-right: 0.4rem;
-  
+
 }
 
-.asset-type svg:nth-child(1){
-   fill: rgb(168, 168, 168);
+.asset-type svg:nth-child(1) {
+    fill: rgb(168, 168, 168);
 }
-.asset-type svg:nth-child(2){
-   fill: rgb(255, 111, 44);
+
+.asset-type svg:nth-child(2) {
+    fill: rgb(255, 111, 44);
 }
-.asset-type svg:nth-child(3){
-   fill: rgb(255, 153, 94);
+
+.asset-type svg:nth-child(3) {
+    fill: rgb(255, 153, 94);
 }
-.asset-type svg:nth-child(4){
-   fill: rgb(255, 157, 248);
+
+.asset-type svg:nth-child(4) {
+    fill: rgb(255, 157, 248);
 }
-.asset-type svg:nth-child(5){
-   fill: rgb(255, 234, 116);
+
+.asset-type svg:nth-child(5) {
+    fill: rgb(255, 234, 116);
 }
-.asset-type svg:nth-child(6){
-   fill: rgb(35, 252, 151);
+
+.asset-type svg:nth-child(6) {
+    fill: rgb(35, 252, 151);
 }
-.asset-type svg:nth-child(7){
-   fill: rgb(175, 202, 255);
+
+.asset-type svg:nth-child(7) {
+    fill: rgb(175, 202, 255);
 }
-.asset-type svg:nth-child(8){
-   fill: rgb(0, 106, 245);
+
+.asset-type svg:nth-child(8) {
+    fill: rgb(0, 106, 245);
 }
-.asset-type svg:nth-child(9){
-   fill: rgb(218, 199, 234);
+
+.asset-type svg:nth-child(9) {
+    fill: rgb(218, 199, 234);
 }
-.asset-type svg:nth-child(10){
-   fill: rgb(0, 0, 0);
+
+.asset-type svg:nth-child(10) {
+    fill: rgb(0, 0, 0);
 }
-.asset-type svg:nth-child(11){
-   fill: rgb(201, 201, 201);
+
+.asset-type svg:nth-child(11) {
+    fill: rgb(201, 201, 201);
 }
-.asset-type svg:nth-child(12){
-   fill: rgb(255, 255, 255);
-   border-radius: 50%;
-   border: 1px solid gray;
+
+.asset-type svg:nth-child(12) {
+    fill: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 1px solid gray;
 }
 
 /* Toggle  Button */
 
-.paragraph-and-btn{
+.paragraph-and-btn {
     margin-top: 1rem;
     width: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
 }
-.paragraph-and-btn p{
+
+.paragraph-and-btn p {
     font-size: 0.9rem;
     margin-right: 1rem;
     color: rgb(152, 152, 152);
-  
-}
-.toggle-btn-btn{
-position: relative;
-width: 2.5rem;
-height: 1.5rem;
-border-radius: 13px;
-background-color: #c1c1c1;
-display: flex;
-align-items: center;
-transition: all 0.3s ease-in-out;
 
 }
-.toggle-btn-btn::after{
+
+.toggle-btn-btn {
+    position: relative;
+    width: 2.5rem;
+    height: 1.5rem;
+    border-radius: 13px;
+    background-color: #c1c1c1;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.toggle-btn-btn::after {
     content: "";
     position: absolute;
     aspect-ratio: 1 / 1;
     height: 1.2rem;
     background-color: rgb(255, 255, 255);
-   left: 0.2rem;
+    left: 0.2rem;
     border-radius: 50%;
     transition: all 0.3s ease-in-out;
     z-index: 0;
-    
-}
-
-.toggle-btn input[type="checkbox"]:checked + .toggle-btn-btn:after{
-   transform: translateX(0.9rem)
-
-}
-.toggle-btn input[type="checkbox"]:checked + .toggle-btn-btn{
-background-color: #2488fb;
 
 }
 
-.toggle-btn input{
+.toggle-btn input[type="checkbox"]:checked+.toggle-btn-btn:after {
+    transform: translateX(0.9rem)
+}
+
+.toggle-btn input[type="checkbox"]:checked+.toggle-btn-btn {
+    background-color: #2488fb;
+
+}
+
+.toggle-btn input {
     display: none;
 }
 
 
 
-#with-people>svg{
+#with-people>svg {
     fill: rgb(145, 145, 145);
     height: 1.2rem;
     margin-right: 0.1rem;
-  
+
 }
 
-#No-people>svg{
+#No-people>svg {
     fill: rgb(145, 145, 145);
     height: 1.2rem;
     margin-right: 0.1rem;
 }
 
-.people-option{
-color: gray;
-margin-top: 2rem;
+.people-option {
+    color: gray;
+    margin-top: 2rem;
 }
 
-.first svg{
+.first svg {
     fill: gray;
 }
-.new{
+
+.new {
     color: rgb(6, 186, 6);
     font-size: 0.8rem;
     font-weight: 600;
