@@ -22,13 +22,14 @@ document.querySelector("#left-btn").onclick = () => {
 // Border bottom when scroll on suggestion heading
 
 // Sticky position position for sidebar and suggestion-heading
-var inputContainer = document.querySelector(".input-container")
-document.querySelector(".suggestion-heading").style.top = `${inputContainer.clientHeight + 1}px`
+const suggestionHeading=document.querySelector(".suggestion-heading");
+const sideFilters = document.querySelector(".side-filters");
+const filtersType=document.querySelector(".filters-type")
+const inputContainer = document.querySelector(".input-container")
+suggestionHeading.style.top = `${inputContainer.clientHeight + 1}px`
+sideFilters.style.top= `${inputContainer.clientHeight +1}px`
 
-
-
-
-
+console.log(inputContainer.offsetHeight,suggestionHeading.offsetHeight)
 var navbar = document.querySelector(".navbar")
 window.onscroll = function () {
 
@@ -67,9 +68,7 @@ const sidebar = document.querySelector(".sidebar");
 
 const mainContainer = document.querySelector(".main-container");
 const sidebarMainContainer = document.querySelector(".sidebar-main-container")
-const sideFilters = document.querySelector(".side-filters");
 const imageContainer=document.querySelector('.image-container')
-const suggestionHeading=document.querySelector(".suggestion-heading");
 
 sideFilters.style.height = ` ${document.querySelector(".suggestion-heading").offsetHeight + 2}px`
 // Sidebar height
@@ -77,7 +76,7 @@ sideFilters.style.height = ` ${document.querySelector(".suggestion-heading").off
 
 //  Sidebar hide
 const filter = document.querySelector(".filter")
-const sideFilter = document.querySelector(".side-filters>svg")
+const sideFilterSVG = document.querySelector(".side-filters>svg")
 
 filter.onclick = () => {
     filter.style.display = "none"
@@ -88,7 +87,7 @@ filter.onclick = () => {
 
 }
 
-sideFilter.addEventListener("click", () => {
+sideFilterSVG.addEventListener("click", () => {
     sidebar.style.display = "none"
     mainContainer.style.width = "100%"
     filter.style.display = "flex"
